@@ -1,43 +1,59 @@
 /* Matches simple, left-aligned look */
 body {
-font-family: Arial, sans-serif;
-background-color: #ffffff;
-margin: 10px;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 10px;
 }
 
 /* Red title like screenshot */
 h1 {
-color: red;
-font-size: 48px;
-margin-bottom: 10px;
+    color: red;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+/* Section headings */
+h2 {
+    margin-top: 20px;
 }
 
 /* Footer small and centered */
 footer {
-text-align: center;
-font-size: 12px;
-margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
 }
 
 /* Keep default bullet nav look */
 nav ul {
-margin-left: 20px;
+    margin-left: 20px;
 }
 
 /* Row layout for image + text */
 .row {
-display: flex;
-align-items: flex-start;
-gap: 15px;
-margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 20px;
 }
 
-/* Image sizing similar to screenshot */
+/* Image styling */
 img {
-width: 350px;
+    width: 350px;
+    border-bottom: 3px solid red;
 }
 
 /* Paragraph width to mimic wrapping */
 p {
-max-width: 600px;
+    max-width: 600px;
+}
+
+/* Media spacing */
+video {
+    display: block;
+    margin-bottom: 10px;
+}
+
+audio {
+    margin-top: 10px;
 }
